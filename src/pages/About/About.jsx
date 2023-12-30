@@ -30,11 +30,10 @@ const About = () => {
             <p className='font-sans font-normal text-[39px] text-[#262626] mt-[32px] '>Orebi is one of the world's leading ecommerce brands and is internationally recognized for celebrating the essence of classic Worldwide cool looking style.</p>
 
             <div className='mt-[118px] 2xl:flex gap-x-10'>
-                <img src={x3} alt="" className='hover:border-b-2 border-black hover:cursor-pointer'/>
-                <img src={x4} alt="" className='hover:border-b-2 border-black hover:cursor-pointer'/>
-                <img src={x5} alt="" className='hover:border-b-2 border-black hover:cursor-pointer'/>
+                <img src={x3} alt="" className='hover:border-b-2 border-black hover:cursor-pointer w-[470px]'/>
+                <img src={x4} alt="" className='hover:border-b-2 border-black hover:cursor-pointer w-[470px]'/>
+                <img src={x5} alt="" className='hover:border-b-2 border-black hover:cursor-pointer w-[470px]'/>
             </div>
-
         </div>
 
         <Footer></Footer>
