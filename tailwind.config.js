@@ -12,6 +12,10 @@ export default {
       fontFamily:{
         'sans': ['DM Sans', 'sans-serif'],
       },
+      // fontFamily: {
+      //   palanquin: ['Palanquin', 'sans-serif'],
+      //   montserrat: ['Montserrat', 'sans-serif'],
+      // },
     },
   },
   plugins: [],
