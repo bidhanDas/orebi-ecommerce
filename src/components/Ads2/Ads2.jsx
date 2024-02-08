@@ -7,7 +7,7 @@ const Ads2 = () => {
   return (
     <>
     {/* image boro hobe na  */}
-    <div className='max-w-container m-auto px-2.5 lg:mt-32 mt-[100px]'>
+    <div className='max-w-container m-auto md:px-16 px-2 lg:mt-32 mt-[100px]'>
         <Link to='404'><img src={x1} alt="" /></Link>
     </div>
     </>

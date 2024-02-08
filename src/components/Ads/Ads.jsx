@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 const Ads = () => {
   return (
     <>
-    <div className='max-w-container m-auto px-2.5 lg:mt-24 mt-[25px] flex gap-x-4 lg:gap-x-10'>
+    <div className='max-w-container m-auto md:px-16 px-2 lg:mt-24 mt-[25px] flex gap-x-4 lg:gap-x-10'>
         <div className='w-2/4'>
             <Link to='404'><img src={x1} alt="" /></Link>
         </div>

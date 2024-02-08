@@ -28,7 +28,7 @@ const Header = () => {
     <>
     <div className='bg-[#F5F5F3]'>
 
-      <div className='max-w-container m-auto px-2.5 flex justify-between items-center'>
+      <div className='max-w-container m-auto md:px-16 px-2 flex justify-between items-center'>
       
        <div onClick={handleClick}>
           <p className='flex items-center gap-x-2.5 hover:cursor-pointer my-10'>

@@ -12,7 +12,7 @@ import Product from '../../components/Product/Product';
 const SpecialOffers = () => {
   return (
     <>
-    <div className='max-w-container m-auto px-2.5 lg:mt-32 mt-[100px]'>
+    <div className='max-w-container m-auto md:px-16 px-2 lg:mt-32 mt-[100px]'>
         <p className='font-sans font-bold text-[#262626] text-[39px]'>Special Offers</p>
         <div className='lg:mt-12 mt-2.5 lg:flex gap-x-10'>
 

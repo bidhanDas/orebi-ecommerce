@@ -29,7 +29,7 @@ const Shop = () => {
     <Navbar></Navbar>
     <Header></Header>
 
-    <div className='max-w-container m-auto px-2.5'>
+    <div className='max-w-container m-auto sm:px-16 px-2'>
         <p className='font-sans font-bold text-[49px] text-[#262626] mt-[124px]'>Shop</p>
         <p className='font-sans font-normal text-xs text-[#767676]'>Home  >  Shop</p>
 

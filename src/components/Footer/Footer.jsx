@@ -13,9 +13,9 @@ const Footer = () => {
   return (
     <>
     <div className='bg-[#F5F5F3]' id='footer'>
-        <div className='max-w-container m-auto px-2.5 mt-[140px] lg:pb-[59px] pb-5'>
+        <div className='max-w-container m-auto md:px-16 px-2 mt-[140px] lg:pb-[59px] pb-5'>
             <div className='lg:flex'>
-                <div className='mt-[55px]'>
+                <div className='pt-[55px]'>
                     <p className='font-sans font-bold text-base text-[#262626]'>MENU</p>            
                     <Link to='/'><p className='font-sans font-normal text-sm text-[#6D6D6D] mt-[17px]'>Home</p></Link>
                     <Link to='/shop'><p className='font-sans font-normal text-sm text-[#6D6D6D] mt-1.5'>Shop</p></Link>
