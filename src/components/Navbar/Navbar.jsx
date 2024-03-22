@@ -27,7 +27,7 @@ const Navbar = () => {
             <Link to='/shop'><li className={y==='/shop' ? "font-sans font-bold text-sm text-[#262626]" : "font-sans font-normal hover:scale-110 text-sm text-[#767676] hover:text-[#262626]     duration-300 ease-in-out"}>Shop</li></Link>
             <Link to='/about'><li className={y==='/about' ? "font-sans font-bold text-sm text-[#262626]" : "font-sans font-normal hover:scale-110 text-sm text-[#767676] hover:text-[#262626]     duration-300 ease-in-out"}>About</li></Link>
             <LinkRoll smooth spy to = 'footer'><li className='font-sans font-normal hover:scale-110 text-sm text-[#767676] hover:text-[#262626] hover:cursor-pointer duration-300 ease-in-out'>Contacts</li></LinkRoll> {/*hover:cursor-pointer dite hobe not in LinkRoll(name like x)*/}
-            <Link to='xyz'><li className={y==='/xyz' || y==='/about/xyz' ? "font-sans font-bold text-sm text-[#262626]" : "font-sans font-normal hover:scale-110 text-sm text-[#767676] hover:text-[#262626]     duration-300 ease-in-out"}>Journal</li></Link>
+            <Link to='xyz'><li className={y==='/xyz' || y==='/about/xyz' || y==='/shop/xyz' ? "font-sans font-bold text-sm text-[#262626]" : "font-sans font-normal hover:scale-110 text-sm text-[#767676] hover:text-[#262626]     duration-300 ease-in-out"}>Journal</li></Link>
             {/* About page ar pore Journal page a gele '/about/xyz' url show kore */}
           </ul>          
         </div>
